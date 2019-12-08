@@ -1,0 +1,18 @@
+Project_1
+
+	Simple One Item Vending Machine
+
+	This is a software only implimentation, problems of how the software will know if the coin is a quarter, dime or nickle can be replaced with a function down the line.
+	In theory, the function would be responsible for the handling of the communication with the sensors and motors. To which it will return a string possibly just "Q" for quarter.
+
+	Purpose:
+		The vending machine should keep track of the quantity of goods inside it. Remember, for the project there is only ONE type of item in this vending machine. So you don't have to worry
+		about programming different veriables for different items. The vending machine should accept values from the user such as Q, D, and N (quarter, dime, nickle). These inputs should be
+		summed up to a total until there is enough for the item to be dispensed. (Don't worry about how the item is dispensed because like mentioned earlier, hardware related things can just
+		be replaced by another function that just accepts "Dispense Item" string and turns the motors.) In the case that the amount inputed is greater than the amount required, then you must
+		return the change. Don't worry about keeping track of how much coins you have in the system. Assume you have infinite coins to be dispensed for returned change.
+
+		Use variables, functions, and loops. I think arrays won't be needed here.
+
+	NOTICE:
+		There are a lot of improvements that can be done here, but we should leave them for next time. I gotta stop somewhere, and leave you something to imagine......
